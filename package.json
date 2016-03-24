@@ -1,1 +1,25 @@
-{"name":"refresh-client","version":"1.0.1","description":"","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"author":"","license":"ISC","dependencies":{"express":""},"devDependencies":{"request":"^2.69.0"}}
+{
+  "name": "refresh-client",
+  "version": "1.0.1",
+  "description": "New NPM that I just published. `refresh-client`\r Browser caching of static files is big headache. You want to release a new version, but your users still get files from the older version.\r This module will solve it by  redirecting the users to new virtual sub-folder every time a version is updated. When you want to release anew version, all you have to do is to change the version number.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": ""
+  },
+  "devDependencies": {
+    "request": "^2.69.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AminaG/node-refresh-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AminaG/node-refresh-client/issues"
+  },
+  "homepage": "https://github.com/AminaG/node-refresh-client#readme"
+}
